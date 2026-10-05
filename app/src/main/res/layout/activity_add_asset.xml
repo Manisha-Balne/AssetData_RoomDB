@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/HeaderLayout"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/AssetRegister"
+                style="@style/heading"
+                />
+
+            <EditText
+                android:id="@+id/etAssetNumber"
+                style="@style/AssetNo" />
+
+            <EditText
+                android:id="@+id/etDescription"
+                style="@style/AssetDescription" />
+
+            <EditText
+                android:id="@+id/etCategory"
+                style="@style/AssetCategory" />
+
+            <EditText
+                android:id="@+id/etLocation"
+                style="@style/AssetLocation" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSave"
+        style="@style/Save" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        style="@style/Cancel"/>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AssetData_RoomDB</string>
+    <string name="Ods_Asset">ODS Assets</string>
+    <string name="btnAdd">Add Asset</string>
+    <string name="btnDelete">Delete Asset</string>
+    <string name="AssetRegister">Asset Registration</string>
+    <string name="AssetDetails">Asset Details</string>
+    <string name="Assetnumber">Asset Number : </string>
+    <string name="AssetDescription">Asset Description : </string>
+    <string name="AssetCategory">Asset Category : </string>
+    <string name="AssetLocation">Asset Location : </string>
+    <string name="etAssetno_empty">Please enter Asset Number</string>
+    <string name="etAssetdes_empty">Please enter Asset Description</string>
+    <string name="etAssetcat_empty">Please enter Category</string>
+    <string name="etAssetlocation_empty">Please enter Location</string>
+</resources>
